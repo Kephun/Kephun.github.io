@@ -696,6 +696,9 @@ input, select, textarea {
 
 			.image.main img {
 				width: 100%;
+				height: 350px;
+				object-fit: cover;
+				object-position: 50% 35%;
 			}
 
 		@media screen and (max-width: 736px) {
@@ -729,6 +732,11 @@ input, select, textarea {
 				object-fit: cover;
 				width: 100%;
 				height: 100%;
+			}
+
+			.live_links {
+				display: flex;
+				gap: 25px;
 			}
 
 /* List */
