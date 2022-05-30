@@ -740,7 +740,15 @@ input, select, textarea {
 			}
 
 /* List */
-
+	ul.links {
+		list-style-type: none;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 15px;
+		margin-right: 25px;
+	}
+	
 	ol {
 		list-style: decimal;
 		margin: 0 0 2rem 0;
